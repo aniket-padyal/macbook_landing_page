@@ -16,11 +16,23 @@ This project recreates an Apple-inspired interactive product page with smooth sc
 
 ## 🧰 Tech Stack
 
-* **React.js** — Component-based UI
-* **Three.js / React Three Fiber** — 3D rendering
-* **GSAP + ScrollTrigger** — Advanced scroll animations
-* **Tailwind CSS** — Utility-first styling
-* **Vite** — Fast development build tool
+- **React.js** — Component-based UI
+- **Three.js / React Three Fiber** — 3D rendering
+- **GSAP + ScrollTrigger** — Advanced scroll animations
+- **Tailwind CSS** — Utility-first styling
+- **Vite** — Fast development build tool
+
+---
+
+## 📂 Project Structure
+public/
+src/
+ ├── components/      # Reusable UI components
+ ├── constants/       # Data
+ ├── store/           # Global state
+ ├── index.css        # Global styles
+ ├── App.jsx
+ └── main.jsx
 
 ---
 
@@ -41,20 +53,20 @@ This project uses **GSAP ScrollTrigger** to control animations based on scroll p
 
 Key concepts used:
 
-* Timeline sequencing
-* Pinning sections
-* Scrub animations
-* Image sequence rendering
+- Timeline sequencing
+- Pinning sections
+- Scrub animations
+- Image sequence rendering
 
 ---
 
 ## 🧠 What I Learned
 
-* Building immersive creative websites using React
-* Integrating GSAP with modern frontend workflows
-* Optimizing performance using image sequences
-* Structuring large animation-heavy projects
-* Combining 3D visuals with UI layouts
+- Building immersive creative websites using React
+- Integrating GSAP with modern frontend workflows
+- Optimizing performance using image sequences
+- Structuring large animation-heavy projects
+- Combining 3D visuals with UI layouts
 
 ---
 
