@@ -1,16 +1,73 @@
-# React + Vite
+# 🍎 Apple-Style 3D MacBook Landing Page — Creative Frontend Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern creative-frontend experience** built using **React, Three.js, GSAP, and Tailwind CSS**.
+This project recreates an Apple-inspired interactive product page with smooth scroll animations, cinematic transitions, and immersive 3D visuals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Preview
 
-## React Compiler
+🚀 Smooth scrolling animations
+🎬 GSAP ScrollTrigger effects
+💻 Interactive 3D MacBook viewer
+⚡ Modern responsive UI inspired by Apple product pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React.js** — Component-based UI
+* **Three.js / React Three Fiber** — 3D rendering
+* **GSAP + ScrollTrigger** — Advanced scroll animations
+* **Tailwind CSS** — Utility-first styling
+* **Vite** — Fast development build tool
+
+---
+
+## 🎯 Features
+
+✅ Apple-style cinematic scroll experience
+✅ 3D rotating product animation
+✅ Image sequence animations for performance
+✅ Responsive layout
+✅ Smooth entrance & transition animations
+✅ Modern creative-frontend architecture
+
+---
+
+## 🎬 Animations
+
+This project uses **GSAP ScrollTrigger** to control animations based on scroll position.
+
+Key concepts used:
+
+* Timeline sequencing
+* Pinning sections
+* Scrub animations
+* Image sequence rendering
+
+---
+
+## 🧠 What I Learned
+
+* Building immersive creative websites using React
+* Integrating GSAP with modern frontend workflows
+* Optimizing performance using image sequences
+* Structuring large animation-heavy projects
+* Combining 3D visuals with UI layouts
+
+---
+
+## 🙌 Credits
+
+Project inspired by a creative frontend tutorial on YouTube:
+
+👉 https://youtu.be/DEeaT6FxEws
+
+All design inspiration belongs to Apple Inc.
+
+---
+
+## 📜 License
+
+This project is for **learning and educational purposes only**.
