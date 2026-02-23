@@ -20,7 +20,6 @@ const Hero = () => {
         autoPlay
         playsInline
         muted
-        loop
       />
 
       <button>Buy</button>
