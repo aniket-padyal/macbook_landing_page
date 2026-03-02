@@ -1,6 +1,8 @@
+import { useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
 
+import Preloader from "./components/Preloader";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ProductViewer from "./components/ProductViewer";
@@ -13,9 +15,14 @@ import Footer from "./components/Footer";
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
   return (
     <main>
-      <Navbar />
+      {loading && <Preloader onComplete={() => setLoading(false)} />}
+
+      {/* <Preloader /> */}
+      <Navbar loading={loading} />
       <Hero />
       <ProductViewer />
       <Showcase />
